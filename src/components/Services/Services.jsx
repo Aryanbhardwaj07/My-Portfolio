@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './Aryan Bhardwaj_20BCE10821v4.pdf';
 
 const Services = () => {
   // context
@@ -27,9 +27,10 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I am a passionate Full Stack Developer who has a great interest in designing various web apps <br />
+          and websites using various tech stack.
           <br />
-          ispum is simpley dummy text of printing
+          My passion for designing and building will surely bring great outcomes for your organization.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +47,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Technical"}
+            detail={"Java, C++, Python, JavaScript, Salesforce CRM, Google Cloud"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Web Development"}
+            detail={"HTML, CSS, Node.js, React. Js, ExpressJs, MongoDB, SQL"}
           />
         </motion.div>
         {/* 3rd */}
@@ -72,7 +73,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Canva, Adobe xd"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
